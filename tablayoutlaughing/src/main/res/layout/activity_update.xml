@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/et_update_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入学生姓名"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/et_update_phone1"
+                style="@style/edit_input_phone_style"
+                android:hint="请输入家长联系电话1"/>
+
+
+            <EditText
+                android:id="@+id/et_update_phone2"
+                style="@style/edit_input_phone_style"
+                android:hint="请输家长入联系电话2"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+
+                    android:id="@+id/rg_update_tuoguan_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_update_tuoguan_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="托管类型"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+
+                    <RadioButton
+                        android:id="@+id/rb1_update_tuoguan_type"
+                        style="@style/grade_style"
+                        android:text="全托"/>
+
+                    <RadioButton
+                        android:id="@+id/rb2_update_tuoguan_type"
+                        style="@style/grade_style"
+                        android:text="午托"/>
+
+                    <RadioButton
+                        android:id="@+id/rb3_update_tuoguan_type"
+                        style="@style/grade_style"
+                        android:text="晚托"/>
+                </RadioGroup>
+
+                <RadioGroup
+
+                    android:id="@+id/rg_update_sex_type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_update_sex_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="性别"
+                        android:textColor="#000"
+                        android:textSize="16sp"/>
+
+                    <RadioButton
+                        android:id="@+id/rb1_update_sex_type"
+                        style="@style/grade_style"
+                        android:text="女"/>
+
+                    <RadioButton
+                        android:id="@+id/rb2_update_sex_type"
+                        style="@style/grade_style"
+                        android:text="男"/>
+
+                    <RadioButton
+                        android:id="@+id/rb3_update_sex_type"
+                        style="@style/grade_style"
+                        android:text="待确定"/>
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioGroup
+
+                android:id="@+id/rg_update_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_update_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="请选择年级"
+                    android:textColor="#000"
+                    android:textSize="16sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb1_updat"
+                    style="@style/grade_style"
+                    android:text="一年级"/>
+
+                <RadioButton
+                    android:id="@+id/rb2_updat"
+                    style="@style/grade_style"
+                    android:text="二年级"/>
+
+                <RadioButton
+                    android:id="@+id/rb3_updat"
+                    style="@style/grade_style"
+                    android:text="三年级"/>
+
+                <RadioButton
+                    android:id="@+id/rb4_updat"
+                    style="@style/grade_style"
+                    android:text="四年级"/>
+
+                <RadioButton
+                    android:id="@+id/rb5_updat"
+                    style="@style/grade_style"
+                    android:text="五年级"/>
+
+                <RadioButton
+                    android:id="@+id/rb6_updat"
+                    style="@style/grade_style"
+                    android:text="六年级"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/bt_update_back"
+                style="@style/button_commt_style"
+                android:text="返回"/>
+
+            <Button
+                android:id="@+id/bt_update_commit"
+                style="@style/button_commt_style"
+                android:text="提交修改"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_update_more"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/shape_input_area"
+        android:gravity="left|top"
+        android:hint="  请输入学生备注信息"
+        android:maxLines="5"
+        android:padding="5dp"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>

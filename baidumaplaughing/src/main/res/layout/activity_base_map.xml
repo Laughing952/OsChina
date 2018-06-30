@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.laughing.android.baidumaplaughing.activity.HelloBaiduMapActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"/>
+    <!--地图基本操作-->
+    <LinearLayout
+        android:id="@+id/ll_hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="缩小"/>
+
+        <Button
+            android:id="@+id/bt_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="放大"/>
+
+        <Button
+            android:id="@+id/bt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="旋转"/>
+
+        <Button
+            android:id="@+id/bt_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="俯仰"/>
+
+        <Button
+            android:id="@+id/bt_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="移动"/>
+
+    </LinearLayout>
+    <!--地图模式-->
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="普通"/>
+
+        <Button
+            android:id="@+id/bt_traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="交通"/>
+
+        <Button
+            android:id="@+id/bt_satellite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="卫星"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|left"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/bt_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="上一页"/>
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="下一页"/>
+    </LinearLayout>
+</RelativeLayout>

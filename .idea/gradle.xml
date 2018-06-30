@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BluetoothLamp" />
+            <option value="$PROJECT_DIR$/MPChartLib" />
+            <option value="$PROJECT_DIR$/OsChin" />
+            <option value="$PROJECT_DIR$/P2P" />
+            <option value="$PROJECT_DIR$/SlideLeftMenuDemo" />
+            <option value="$PROJECT_DIR$/SmartCamera" />
+            <option value="$PROJECT_DIR$/baidumaplaughing" />
+            <option value="$PROJECT_DIR$/baidunavisdksimpledemo" />
+            <option value="$PROJECT_DIR$/downloadservicedemo" />
+            <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/litepaldemo" />
+            <option value="$PROJECT_DIR$/materialtest" />
+            <option value="$PROJECT_DIR$/myrecyclerview" />
+            <option value="$PROJECT_DIR$/runtimepermission" />
+            <option value="$PROJECT_DIR$/sunsetanimation" />
+            <option value="$PROJECT_DIR$/tablayoutlaughing" />
+            <option value="$PROJECT_DIR$/viewpagerindicatorlibrary" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

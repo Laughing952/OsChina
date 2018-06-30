@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BluetoothLamp/BluetoothLamp.iml" filepath="$PROJECT_DIR$/BluetoothLamp/BluetoothLamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OsChina.iml" filepath="$PROJECT_DIR$/OsChina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2P/P2P.iml" filepath="$PROJECT_DIR$/P2P/P2P.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlideLeftMenuDemo/SlideLeftMenuDemo.iml" filepath="$PROJECT_DIR$/SlideLeftMenuDemo/SlideLeftMenuDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartCamera/SmartCamera.iml" filepath="$PROJECT_DIR$/SmartCamera/SmartCamera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baidumaplaughing/baidumaplaughing.iml" filepath="$PROJECT_DIR$/baidumaplaughing/baidumaplaughing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/litepaldemo/litepaldemo.iml" filepath="$PROJECT_DIR$/litepaldemo/litepaldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myrecyclerview/myrecyclerview.iml" filepath="$PROJECT_DIR$/myrecyclerview/myrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunsetanimation/sunsetanimation.iml" filepath="$PROJECT_DIR$/sunsetanimation/sunsetanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tablayoutlaughing/tablayoutlaughing.iml" filepath="$PROJECT_DIR$/tablayoutlaughing/tablayoutlaughing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" filepath="$PROJECT_DIR$/viewpagerindicatorlibrary/viewpagerindicatorlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="BookStore"></dbname>
+
+    <version value="2"></version>
+
+    <list>
+        <mapping class="com.laughing.android.litepaldemo.LitePalBean.Book"></mapping>
+        <mapping class="com.laughing.android.litepaldemo.LitePalBean.Category"></mapping>
+    </list>
+</litepal>

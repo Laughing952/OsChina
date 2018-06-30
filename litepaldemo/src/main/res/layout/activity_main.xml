@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_tab"
+        android:background="@color/colorAccent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <Button
+            android:id="@+id/create_database"
+            style="@style/tab_bottom_style"
+            android:text="创建"
+            />
+
+        <Button
+            android:id="@+id/add_data"
+            style="@style/tab_bottom_style"
+            android:text="添加"
+            />
+
+        <Button
+            android:id="@+id/update_data"
+            style="@style/tab_bottom_style"
+            android:text="更新"
+            />
+
+        <Button
+            android:id="@+id/delete_data"
+            style="@style/tab_bottom_style"
+            android:text="删除"
+            />
+
+        <Button
+            android:id="@+id/query_data"
+            style="@style/tab_bottom_style"
+            android:text="查询"/>
+
+    </LinearLayout>
+</RelativeLayout>

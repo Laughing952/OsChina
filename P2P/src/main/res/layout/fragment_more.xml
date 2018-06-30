@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.laughing.android.myapplication.fragment.HomeFragment">
+
+    <include layout="@layout/common_top"/>
+
+    <com.laughing.android.myapplication.view.AlawysTextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="各位同学们,传智感谢你们用心听课，祝愿大家毕业后都能高新就业，赢娶白富美，走向人生巅峰"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"/>
+
+</LinearLayout>
